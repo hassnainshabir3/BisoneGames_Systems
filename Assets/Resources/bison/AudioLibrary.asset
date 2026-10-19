@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f5ec532213821d59d5ffd6cb3fe6aa, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::bison.core.Audio.AudioLibrary
+  sounds:
+  - soundId: 3
+    clips:
+    - {fileID: 8300000, guid: 741534b1ac1cad3b8944b9ac287aa57f, type: 3}
+    volume: 0.633
+    minimumPitch: 0
+    maximumPitch: 0
+    is_Looping: 1
+  - soundId: 2
+    clips:
+    - {fileID: 8300000, guid: 664af58d4b8f62fb3bb62be5589dbece, type: 3}
+    volume: 0.633
+    minimumPitch: 0
+    maximumPitch: 0
+    is_Looping: 1
+  - soundId: 1
+    clips:
+    - {fileID: 8300000, guid: 7491296fec2432396bb6c8382faa8c1a, type: 3}
+    volume: 0.633
+    minimumPitch: 0
+    maximumPitch: 0
+    is_Looping: 1
